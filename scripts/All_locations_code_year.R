@@ -12,7 +12,6 @@ library(geosphere)
 library(ncdf4)
 library(reshape2)
 
-
 data(wrld_simpl)
 rast <-raster()
 res(rast)=0.1
